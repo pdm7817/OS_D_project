@@ -44,7 +44,7 @@ test_loss = mean_squared_error(test_y, pred_y)
 train_y = lr.predict(X)
 train_loss = mean_squared_error(y, train_y)
 
-print(test_loss, train_loss)
+#print(test_loss, train_loss)
 plt.scatter(test_y, pred_y)
 plt.plot([0,np.max(test_y)],[0,np.max(test_y)], color='red')
 plt.show()
